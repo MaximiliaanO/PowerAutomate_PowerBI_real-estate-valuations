@@ -1,0 +1,28 @@
+{
+  "comment":"This JSON file contains placeholder columnsid's and typeid's",
+  "batchId": "BatchValuations@{utcNow()}",
+  "dimensionRequests": [
+    {
+      "columnIds": [1001, 1002, 1003],              
+      "TypeId": 2000,                             
+      "filters": {
+        "type": "ALL",
+        "values": [
+          { "columnId": 2001, "operatorId": -604, "value": "CATEGORY_PLACEHOLDER" }
+        ]
+      },
+      "requestId": "AssetValueRequest@{utcNow()}"
+    },
+    {
+      "columnIds": [1101, 1102, 1103],
+      "TypeId": 2100,
+      "filters": {
+        "type": "ALL",
+        "values": [
+          { "columnId": 2101, "operatorId": -604, "value": "SUBCATEGORY_PLACEHOLDER" }
+        ]
+      },
+      "requestId": "LegalEntityRequest@{utcNow()}"
+    }
+  ]
+}
